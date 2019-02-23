@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: SoundDrop
 description: Multiroom audio system (very early stage)
 project: sounddrop
