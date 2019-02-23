@@ -6,6 +6,7 @@ description: Nicolas' open source dev projects
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Nicolas Perraut
+permalink: /:title
 
 # homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
