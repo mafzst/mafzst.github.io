@@ -23,19 +23,19 @@
 			<h1>{{ page.title }}</h1>
 		</header>
 		<p>
-			<img src="https://img.shields.io/github/languages/top/mafzst/{{ page.project }}.svg?style=for-the-badge" alt="Project main language" />
-			<img src="https://img.shields.io/github/license/mafzst/{{ page.project }}.svg?style=for-the-badge" alt="License" />
-			<img src="https://img.shields.io/github/last-commit/mafzst/{{ page.project }}.svg?style=for-the-badge" alt="Last commit date" />
-			<img src="https://img.shields.io/github/release-date/mafzst/{{ page.project }}.svg?style=for-the-badge" alt="Last release date" />
-			<img src="https://img.shields.io/codeclimate/maintainability/mafzst/{{ page.project }}.svg?style=for-the-badge" alt="Code climate maintainability" />
-			<img src="https://img.shields.io/codeclimate/tech-debt/mafzst/{{ page.project }}.svg?style=for-the-badge" alt="Code climate technical debpt" />
+			<img src="https://img.shields.io/github/languages/top/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Project main language" />
+			<img src="https://img.shields.io/github/license/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="License" />
+			<img src="https://img.shields.io/github/last-commit/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last commit date" />
+			<img src="https://img.shields.io/github/release-date/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last release date" />
+			<img src="https://img.shields.io/codeclimate/maintainability/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate maintainability" />
+			<img src="https://img.shields.io/codeclimate/tech-debt/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate technical debpt" />
 		</p>
 		<div class="box">
 			<p><b>{{ page.description }}</b></p>
 		</div>
 	        <p>{{ content }}</p>
 		<a href="https://{{ page.project }}.dev.nicolas-perraut.fr" class="button special">Read the doc</a>
-		<a href="https://github.com/mafzst/{{ page.project }}" class="button">GitHub repository</a>
+		<a href="https://github.com/{{ site.github_username }}/{{ page.project }}" class="button">GitHub repository</a>
 	</div>
 </section>
 
