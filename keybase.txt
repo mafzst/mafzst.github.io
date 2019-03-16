@@ -1,0 +1,96 @@
+---
+permalink: /.well-known/keybase.txt
+---
+==================================================================
+
+https://keybase.io/mafzst
+
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nicolas-perraut.fr
+
+  * I am mafzst (https://keybase.io/mafzst) on keybase.
+
+  * I have a public key ASALqDSF7_VzpWPX0ueoqCfITIkU_9zn50HaTA2RRLjOjQo
+
+To do so, I am signing this object:
+
+{
+
+  "body": {
+
+    "key": {
+
+      "eldest_kid": "01201d711ac05b84dd95ce7da69353156bfffa933eb8e478b34e1e798ee8f27b687f0a",
+
+      "host": "keybase.io",
+
+      "kid": "01200ba83485eff573a563d7d2e7a8a827c84c8914ffdce7e741da4c0d9144b8ce8d0a",
+
+      "uid": "2ccbf7a65af2bfc56b7b2e22f5d94f19",
+
+      "username": "mafzst"
+
+    },
+
+    "merkle_root": {
+
+      "ctime": 1552723380,
+
+      "hash": "11707ffa6fa4e2f7169bd407924eeec8bd3bf02fa0c2c5c163206a8515781030d93c263460a57f091aa2717686a6727baa27159665ec52ad85d4bcf60b5c754b",
+
+      "hash_meta": "9abb1e71dccf44e76c184cc6bea0dd979261e616cc55648c87c92b2a1ebc5eea",
+
+      "seqno": 4961342
+
+    },
+
+    "service": {
+
+      "entropy": "v6wjw0swFZ1pBsfZlFUrcs1D",
+
+      "hostname": "nicolas-perraut.fr",
+
+      "protocol": "http:"
+
+    },
+
+    "type": "web_service_binding",
+
+    "version": 2
+
+  },
+
+  "client": {
+
+    "name": "keybase.io go client",
+
+    "version": "3.1.2"
+
+  },
+
+  "ctime": 1552723445,
+
+  "expire_in": 504576000,
+
+  "prev": "b08befa6c83e4c4824ec92b71409ce6dd6ecffe7f25344015758f107f1d52800",
+
+  "seqno": 51,
+
+  "tag": "signature"
+
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgC6g0he/1c6Vj19LnqKgnyEyJFP/c5+dB2kwNkUS4zo0Kp3BheWxvYWTESpcCM8QgsIvvpsg+TEgk7JK3FAnObdbs/+fyU0QBV1jxB/HVKADEIC7WlkULxXz5/Rhgpo9DJGBIktelYKPaDbG6aHLuGykpAgHCo3NpZ8RAUiFMX36Om85SRAWWcWwz87Enux4eDwaEDHVEyfgGYe6zrqkOVCQLQu9HQzjn+MbAJxywvDoFlqRaIIZaeT5PAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINqZZWaiuXZD/3O7oXMy5S7dkLkUpfY/Ln88jKx6pjeYo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mafzst
+
+==================================================================
