@@ -3,6 +3,7 @@ layout: project
 title: Tunack
 description: Kubernetes nginx ingress controller tcp/udp auto configuration
 project: tunack
+show_tile: true
 ---
 ## Motivation
 When deploying lots of TCP or UDP custom services, it's needed to configure nginx ingress manager to bind port to these services. 
