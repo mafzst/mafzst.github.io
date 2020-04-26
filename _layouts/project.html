@@ -23,23 +23,35 @@
 			<h1>{{ page.title }}</h1>
 		</header>
 		<p>
-			<img src="https://img.shields.io/github/languages/top/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Project main language" />
-			<img src="https://img.shields.io/github/license/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="License" />
-			<img alt="Treeware (Trees)" src="https://img.shields.io/treeware/trees/{{ site.github_username }}/{{ page.project }}?label=Treeware&style=for-the-badge">
-			<img src="https://img.shields.io/github/last-commit/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last commit date" />
-			<img src="https://img.shields.io/github/release-date-pre/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last release date" />
-			<img src="https://img.shields.io/codeclimate/maintainability/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate maintainability" />
-			<img src="https://img.shields.io/codeclimate/tech-debt/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate technical debpt" />
+			{% if page.github_username %}
+				<img src="https://img.shields.io/github/languages/top/{{ page.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Project main language" />
+				<img src="https://img.shields.io/github/license/{{ page.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="License" />
+				<img alt="Treeware (Trees)" src="https://img.shields.io/treeware/trees/{{ page.github_username }}/{{ page.project }}?label=Treeware&style=for-the-badge">
+				<img src="https://img.shields.io/github/last-commit/{{ page.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last commit date" />
+				<img src="https://img.shields.io/github/release-date-pre/{{ page.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last release date" />
+				<img src="https://img.shields.io/codeclimate/maintainability/{{ page.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate maintainability" />
+				<img src="https://img.shields.io/codeclimate/tech-debt/{{ page.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate technical debpt" />
+			{% else %}
+				<img src="https://img.shields.io/github/languages/top/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Project main language" />
+				<img src="https://img.shields.io/github/license/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="License" />
+				<img alt="Treeware (Trees)" src="https://img.shields.io/treeware/trees/{{ site.github_username }}/{{ page.project }}?label=Treeware&style=for-the-badge">
+				<img src="https://img.shields.io/github/last-commit/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last commit date" />
+				<img src="https://img.shields.io/github/release-date-pre/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Last release date" />
+				<img src="https://img.shields.io/codeclimate/maintainability/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate maintainability" />
+				<img src="https://img.shields.io/codeclimate/tech-debt/{{ site.github_username }}/{{ page.project }}.svg?style=for-the-badge" alt="Code climate technical debpt" />
+			{% endif %}
 		</p>
 		<div class="box">
 			<p><b>{{ page.description }}</b></p>
 		</div>
 		<p>{{ content }}</p>
 
-		{% if page.doc_url %}
-			<a href="{{ page.doc_url }}" class="button special">Read the doc</a>
-		{% else %}
-			<a href="https://{{ page.project }}.nicolas-perraut.fr" class="button special">Read the doc</a>
+		{% if page.no_doc == null %}
+			{% if page.doc_url %}
+				<a href="{{ page.doc_url }}" class="button special">Read the doc</a>
+			{% else %}
+				<a href="https://{{ page.project }}.tuarrep.dev" class="button special">Read the doc</a>
+			{% endif %}
 		{% endif %}
 		{% if page.repository_url %}
 			<a href="{{ page.repository_url }}" class="button">GitHub repository</a>

@@ -2,6 +2,7 @@
 layout: project
 title: Syncthing
 description: Open Source Continuous File Synchronization (open source contribution)
+github_username: syncthing
 project: syncthing
 show_tile: true
 repository_url: https://github.com/syncthing/syncthing/
